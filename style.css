@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vm;
+    height: 100vh;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.number:hover{
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.operator{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.operator:hover{
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+#clear{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#clear:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.decimal{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.decimal:hover{
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.equal{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.equal:hover{
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 300px;
+    border: 2px solid black;
+    height: 75px;
+    margin: 10px;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
